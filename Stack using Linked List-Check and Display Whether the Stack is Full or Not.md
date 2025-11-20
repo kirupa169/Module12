@@ -29,8 +29,21 @@ To write a Python program that:
    - Otherwise, print "Stack is not full".
 
 ## 📝 Program
-Add Code here
+```
+stack = []
+stack.append('a')
+stack.append('b')
+stack.append('c')
+print('Initial stack: ' + str(stack))
+for i in range(len(stack)):
+print(i, end=" ")
+print(stack[i])
+```
+
 
 ## Sample Input & Output
+<img width="718" height="214" alt="image" src="https://github.com/user-attachments/assets/649736eb-050c-44b2-a72a-13f4201cc9c1" />
+
 
 ## Result
+Thus the program has been successfully executed
